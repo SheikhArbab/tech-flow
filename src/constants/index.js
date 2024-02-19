@@ -3,7 +3,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import * as Yup from 'yup';
 
 export const HeaderLinks = [
-    { title: 'News & Events', link: '/news' },
+    { title: 'Home', link: '/' },
+    { title: 'About', link: '/about' },
     { title: 'Offices', link: '/offices' },
     { title: 'Contact', link: '/contact' }
 ]
@@ -251,9 +252,6 @@ export const officesData = [
     { link: '/los-ngeles', title: 'Los Angeles', img: 'https://cdn.westmonroe.com/-/media/west-monroe-images/core-brand-images/hero/losangeles.jpg?cx=0.34&amp;cy=0.61&amp;cw=1600&amp;ch=1600&amp;hash=AFD87C588DE130C45BF95B2D78242B6F', description: 'Located in the rapidly revitalizing downtown business district, our Los Angeles office is the hub of our Southern California operations.' },
     { link: '/minneapolis', title: 'Minneapolis', img: 'https://cdn.westmonroe.com/-/media/west-monroe-images/core-brand-images/hero/losangeles.jpg?cx=0.34&amp;cy=0.61&amp;cw=1600&amp;ch=1600&amp;hash=AFD87C588DE130C45BF95B2D78242B6F', description: 'Our Minneapolis office is located in the North Loop’s Nordic building and includes the firm’s digital product studio, which serves clients nationally.' },
     { link: '/new-york', title: 'New York', img: 'https://cdn.westmonroe.com/-/media/west-monroe-images/core-brand-images/hero/minneapolis.jpg?cx=0.24&amp;cy=0.55&amp;cw=1600&amp;ch=1600&amp;hash=3F542B9E2EBE37543416D0FBB483D9C8', description: 'Our New York office is conveniently located in Midtown Manhattan to serve clients up in the Tri-state area and up and down the East Coast. ' },
-    { link: '/san-francisco', title: 'San Francisco', img: 'https://cdn.westmonroe.com/-/media/west-monroe-images/core-brand-images/hero/newyork.jpg?cx=0.5&amp;cy=0.5&amp;cw=1600&amp;ch=1600&amp;hash=12FFDDB828617E92E1E6CCA9D70CA72B', description: 'Located in SoMa, the epicenter of San Francisco’s tech community, this office serves clients in the Bay Area and across Northern California.' } 
+    { link: '/san-francisco', title: 'San Francisco', img: 'https://cdn.westmonroe.com/-/media/west-monroe-images/core-brand-images/hero/newyork.jpg?cx=0.5&amp;cy=0.5&amp;cw=1600&amp;ch=1600&amp;hash=12FFDDB828617E92E1E6CCA9D70CA72B', description: 'Located in SoMa, the epicenter of San Francisco’s tech community, this office serves clients in the Bay Area and across Northern California.' }
 ]
-
-
-
 

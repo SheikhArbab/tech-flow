@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #e2890b;
+  --secondary: #1e1e1e;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e2890b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e6992d;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.active{
+  color: var(--primary);
+}
+
+/* .btn */
+
+.btn {
+  margin: 0.5em;
+  background: var(--primary);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn:hover {
+  color: var(--primary);
+}
+
+.btn:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+.btn:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.card {
+  position: relative;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--secondary);
+  transition: all 0.5s;
+}
+
+.card::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+}
+
+.card::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+}
+
+.card:hover::before,
+.card:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+  color: var(--primary);
+}
+
+
+
+.office-card {
+  position: relative; 
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+ 
+.office-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.office-card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.office-card:hover .office-card__content {
+  transform: rotateX(0deg);
+}
+
+.office-card__title {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+ 
+.office-card__description {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.4;
+}
+
+ 

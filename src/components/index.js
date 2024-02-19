@@ -1,0 +1,14 @@
+export {default as Hero} from  './Hero';
+export {default as Logo} from  './Logo';
+export {default as Header} from  './Header';
+export {default as HeaderMenu} from  './HeaderMenu';
+export {default as HomeCard} from  './HomeCard';
+export {default as HomeInfo} from  './HomeInfo';
+export {default as HomeMarquee} from  './HomeMarquee';
+export {default as Footer} from  './Footer';
+export {default as HomeSlider} from  './HomeSlider';
+export {default as HomeClient} from  './HomeClient';
+export {default as HomeContact} from  './HomeContact'; 
+export {default as ContactForm} from  './ContactForm';
+export {default as ContactInfo} from  './ContactInfo';
+export {default as FooterTopBnr} from  './FooterTopBnr';

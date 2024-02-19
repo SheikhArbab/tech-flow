@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import { IoMdSearch } from "react-icons/io";
+import { NavLink } from 'react-router-dom' 
 import { HiMenuAlt3 } from "react-icons/hi";
 import { HeaderLinks, HeaderLinksB } from '@/constants/index'
 import { HeaderMenu, Logo } from '@/components/index'
@@ -58,8 +57,7 @@ const Header = () => {
                                 {c.title}
                             </NavLink>
                         </li>
-                        ))}
-                        <li><IoMdSearch className='text-primary text-2xl font-bold' /></li>
+                        ))} 
                     </ul>
                 </div>
                 <div className='flex items-center justify-between py-6'>

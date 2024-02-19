@@ -255,3 +255,18 @@ export const officesData = [
     { link: '/san-francisco', title: 'San Francisco', img: 'https://cdn.westmonroe.com/-/media/west-monroe-images/core-brand-images/hero/newyork.jpg?cx=0.5&amp;cy=0.5&amp;cw=1600&amp;ch=1600&amp;hash=12FFDDB828617E92E1E6CCA9D70CA72B', description: 'Located in SoMa, the epicenter of San Francisco’s tech community, this office serves clients in the Bay Area and across Northern California.' }
 ]
 
+export const aboutOverview = [
+    {
+        image: "https://cdn.westmonroe.com/-/media/west-monroe-images/industry-images/software-and-high-tech/2020_01_31_wmp_seattle_1739-min.jpg?cx=0.5&cy=0.5&cw=1416&ch=1360&hash=D19834126B953E108000DFD78A8B7501", title: `The Right People, Right From the Start
+    `, description: `Changing the way you do business at the pace of rapidly changing customer expectations requires all hands on deck. Our dynamic team includes technical, industry, operational, and product experts who work cross-collaboratively and leverage data to deliver an optimal employee and customer experience.
+
+    We understand your challenges and opportunities are multifaceted—which is why our teams are, too. Define new ways of working, improve customer and employee experience, streamline operations, optimize profitability, expand revenue streams, and better compete in the market—all with one team.`
+    },
+    {
+        image: "https://cdn.westmonroe.com/-/media/west-monroe-images/perspective-images/why-salesforce-should-use-an-ide.png?cx=0.5&cy=0.5&cw=1416&ch=1360&hash=8BE8E6BF6C3726BF39942EDF4EF7F541", title: `Our Promise`, description: `West Monroe is the only digital services firm that connects innovative creators and experienced business advisors to drive value across the digital and physical worlds.
+
+        We apply industry and functional experience, leverage data and technology, and design products and experiences to help companies differentiate, drive value and transform.
+        
+        People are at the heart of great companies and experiences, so we bring together the brightest minds in innovation and advisory to unlock our clients’ greatest potential.`
+    }
+]

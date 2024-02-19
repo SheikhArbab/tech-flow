@@ -1,7 +1,7 @@
 import React from 'react'
 import { RootLayout } from '@/layout/index'
 import { Navigate, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import { Home, Contact, Offices, OurTeam,About } from '@/pages/index'
+import { Home, Contact, Offices, OurTeam, About, TermsOfUse, PrivacyPolicy } from '@/pages/index'
 
 const Routing = () => {
 
@@ -13,6 +13,8 @@ const Routing = () => {
                 <Route path='/offices' element={<Offices />} />
                 <Route path='/our-team' element={<OurTeam />} />
                 <Route path='/about' element={<About />} />
+                <Route path='/terms-of-use' element={<TermsOfUse />} />
+                <Route path='/privacy-policy' element={<PrivacyPolicy />} />
                 <Route path='*' element={<Navigate to={'/'} />} />
             </Route>
         )

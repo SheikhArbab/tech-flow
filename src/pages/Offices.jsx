@@ -3,9 +3,7 @@ import { Hero, FooterTopBnr } from '@/components/index'
 import { officesData } from '@/constants/index'
 import { Link } from 'react-router-dom'
 
-const Offices = () => {
-    return (
-        <>
+const Offices = () =>  <>
             <Hero
                 heroHeading={'Our Offices'}
                 heroLine={'Emerald City. Second City. The Big Apple. Find your nearest Tech Flow LLc team, coast to coast.'}
@@ -31,10 +29,6 @@ const Offices = () => {
                     </Link>)}
                 </div>
             </section>
-            <FooterTopBnr heading={`We're helping clients achieve their boldest ambitions. Read more about how our clients are redefining their businesses to thrive.`} btnTitle={'See All Client Stories'} btnLink={'/client-stories'} />
-
-        </>
-    )
-}
+            <FooterTopBnr heading={`We're helping clients achieve their boldest ambitions. Read more about how our clients are redefining their businesses to thrive.`} btnTitle={'See All Client Stories'} btnLink={'/client-stories'} /></> 
 
 export default Offices

@@ -1,9 +1,7 @@
 import React from 'react'
 import { Hero, ContactForm, ContactInfo, FooterTopBnr } from '@/components/index'
 
-const Contact = () => {
-    return (
-        <>
+const Contact = () => <>
             <Hero
                 heroHeading={'Contact Us'}
                 heroLine={'Looking for digital consulting that will drive results, or just curious about what we do? You’re in the right place. Email. Phone. Social media. Connect with the right people.'}
@@ -19,7 +17,6 @@ const Contact = () => {
             </section>
             <FooterTopBnr heading={`Get to know us`} btnTitle={'Meet Our Team'} btnLink={'/our-team'} />
         </>
-    )
-}
+  
 
 export default Contact

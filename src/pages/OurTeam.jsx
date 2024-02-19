@@ -5,7 +5,6 @@ import { Hero, FooterTopBnr } from '@/components/index'
 import { teamSlider } from '@/assets/index'
 
 const OurTeam = () => {
-
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -25,11 +24,11 @@ const OurTeam = () => {
     }
   };
 
+
   return (
-    <>
-      <Hero heroHeading={'Our Team'} btnTitle={'Get In Touch'} btnLink={'/contact'}
-        heroLine={'The right thinkers, makers and doers to meet your goals. All on one team'}
-      />
+    <><Hero heroHeading={'Our Team'} btnTitle={'Get In Touch'} btnLink={'/contact'}
+      heroLine={'The right thinkers, makers and doers to meet your goals. All on one team'}
+    />
       <div className="container mx-auto sm:px-0 px-8">
         <p className='md:w-[80%] pt-12 mx-auto md:text-3xl md:leading-relaxed opacity-70'>Industry specialists. Inventors. Engineers. Technologists. Advisors. Experts. Parents. Philanthropists. <br />
           <br />
@@ -45,8 +44,7 @@ const OurTeam = () => {
         {teamSlider.map((v, i) => <figure key={i}><img className='opacity-80 hover:opacity-100 duration-300 transition-all' src={v} /></figure>)}
       </Carousel>;
 
-      <FooterTopBnr heading={`Want to learn more?`} btnTitle={'Contact Us'} btnLink={'/contact'} />
-    </>
+      <FooterTopBnr heading={`Want to learn more?`} btnTitle={'Contact Us'} btnLink={'/contact'} /></>
   )
 }
 

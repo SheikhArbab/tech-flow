@@ -88,7 +88,7 @@ export const HeaderLinksB = [
         ]
 
     },
-    
+
     {
         title: 'careers', link: '/careers', list: [
             { "title": "Careers Home", "link": "/some" },
@@ -255,4 +255,13 @@ export const aboutOverview = [
         
         People are at the heart of great companies and experiences, so we bring together the brightest minds in innovation and advisory to unlock our clients’ greatest potential.`
     }
+]
+
+export const ServicesDetails = [
+    { image:'https://cdn.westmonroe.com/-/media/west-monroe-images/services-images/customer-experience/cx_people_computer_group.jpg?cx=0.5&cy=0.5&cw=1600&ch=1600&hash=D0EA166B463361455FC3580C165E1883',link: 'customer-engagement', title: 'Customer Engagement', description: 'Consumers want exceptional customer experiences. West Monroe helps you build strategic, human-centered customer experiences that will set you apart' },
+    { image:'https://cdn.westmonroe.com/-/media/west-monroe-images/services-images/pep/hero_2504x1440.jpg?cx=0.5&cy=0.5&cw=1600&ch=1600&hash=98C9F10552BDD2F3D2B74E10EB716F24',link: 'mergers-acquisitions', title: 'Mergers & Acquisitions', description: "Mergers and acquisitions are part art, part science. We've mastered both—having executed thousands of transactions. We help you execute seamlessly." },
+    { image:'',link: 'data-technology', title: 'Data & Technology', description: "You don't need a digital strategy. You need a strategy for a digital world—and a group of talented, strategic thinkers who collaborate with hands-on technologists. You're in the right place." },
+    { image:'',link: 'organization-people', title: 'Organization & People', description: "People matter. They are the thinkers, doers, and advocates in your organization—and they can make, or break, your business strategy. We know how to help." },
+    { image:'',link: 'business-operations', title: 'Business Operations', description: "To succeed—and scale—you need well-run operations to back you up. We help organizations rebuild and optimize their core. " },
+    { image:'',link: 'products-experiences', title: 'Products & Experiences', description: "Leverage the expertise of our product strategy and design consultants to find, attract and retain customers by building something truly special." },
 ]

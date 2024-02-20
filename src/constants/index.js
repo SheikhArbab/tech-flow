@@ -12,7 +12,7 @@ export const HeaderLinks = [
 
 export const HeaderLinksB = [
     {
-        title: 'what we do', link: '/some', list: [
+        title: 'what we do', link: '/services', list: [
             { "title": "Strategic Visioning", "link": "/some" },
             { "title": "Customer Engagement", "link": "/some" },
             { "title": "Customer Journey Analytics", "link": "/some" },
@@ -48,7 +48,7 @@ export const HeaderLinksB = [
 
     },
     {
-        title: 'industries', link: '/some', list: [
+        title: 'industries', link: '/industries', list: [
             { "title": "Consumer & Industrial Products", "link": "/some" },
             { "title": "Energy & Utilities", "link": "/some" },
             { "title": "Financial Services", "link": "/some" },
@@ -68,10 +68,10 @@ export const HeaderLinksB = [
 
     },
     {
-        title: 'client stories', link: '/some', list: false
+        title: 'client stories', link: '/client-stories', list: false
     },
     {
-        title: 'prespectives', link: '/some', list: [
+        title: 'prespectives', link: '/perspectives', list: [
             { "title": "Perspectives Home", "link": "/some" },
             { "title": "Subscribe", "link": "/some" },
             { "title": "Trending Topics", "link": "/some" },
@@ -88,23 +88,9 @@ export const HeaderLinksB = [
         ]
 
     },
+    
     {
-        title: 'abouts', link: '/some', list: [
-            { "title": "About Us", "link": "/some" },
-            { "title": "Be Digital", "link": "/some" },
-            { "title": "How We Work", "link": "/some" },
-            { "title": "Intellio®", "link": "/some" },
-            { "title": "Our Team", "link": "/some" },
-            { "title": "Partnerships", "link": "/some" },
-            { "title": "What We Value", "link": "/some" },
-            { "title": "Inclusion & Diversity", "link": "/some" },
-            { "title": "Corporate Social Responsibility", "link": "/some" },
-            { "title": "Annual Impact Report", "link": "/some" }
-        ]
-
-    },
-    {
-        title: 'careers', link: '/some', list: [
+        title: 'careers', link: '/careers', list: [
             { "title": "Careers Home", "link": "/some" },
             { "title": "Search Jobs", "link": "/some" },
             { "title": "Rewards & Benefits", "link": "/some" },
